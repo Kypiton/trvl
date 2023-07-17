@@ -1,3 +1,4 @@
+import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import Home from '../pages/Home';
 import Services from '../pages/Services';

@@ -1,6 +1,14 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 
-const CardItem = ({ src, text, label, path }) => {
+interface ICardItem {
+    src: string;
+    text: string;
+    label: string;
+    path: string;
+}
+
+const CardItem = ({ src, text, label, path }: ICardItem) => {
     return (
         <>
             <li className="cards__item">

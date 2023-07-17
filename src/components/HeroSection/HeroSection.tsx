@@ -1,13 +1,13 @@
-import Button from "../Button/Button"
+import React from 'react';
 
-import video from '../../assets/videos/video-2.mp4'
+import Button from "../Button/Button"
 
 import './HeroSection.css';
 
 const HeroSection = () => {
     return (
         <div className='hero-container'>
-            <video src={video} autoPlay loop muted />
+            <video src={process.env.PUBLIC_URL + '/assets/videos/video-2.mp4'} autoPlay loop muted />
             <h1>ADVENTURE AWAITS</h1>
             <p>What are you waiting for?</p>
             <div className="hero-btns">
